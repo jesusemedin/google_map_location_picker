@@ -134,7 +134,7 @@ class LocationPickerState extends State<LocationPicker> {
                 SizedBox(width: 24),
                 Expanded(
                   child: Text(
-                    S.of(context).finding_place,
+                    "Finding place...",
                     style: TextStyle(fontSize: 16),
                   ),
                 )
