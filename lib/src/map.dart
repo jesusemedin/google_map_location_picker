@@ -425,7 +425,7 @@ class _MapFabs extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.topLeft,
-      margin: const EdgeInsets.only(top: kToolbarHeight + 85, right: 8),
+      margin: const EdgeInsets.only(top: kToolbarHeight + 85, right: 8, left: 8),
       child: Column(
         children: <Widget>[
           if (layersButtonEnabled!)
